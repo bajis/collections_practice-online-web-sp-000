@@ -11,7 +11,8 @@ def swap_elements(num)
   num[1], num[2] = num[2], num[1]
   return num
 end
-def reverse_array
+def reverse_array(num)
+  order = num.reverse
 end
 def kesha_maker
 end
