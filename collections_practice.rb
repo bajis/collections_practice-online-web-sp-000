@@ -20,10 +20,12 @@ def kesha_maker(array)
 end
 def find_a(array)
   new_str = []
-  if string.start_with?("a")
-    new_str.push(string)
+  array.each do |string|
+    if string.start_with?("a")
+      new_str.push(string)
+    end
   end
-new_str
+  new_str
 end
 def sum_array
 end
