@@ -18,7 +18,13 @@ def kesha_maker(array)
   array.each_with_index {|word, index| word[2] = "$"}
   array
 end
-def find_a
+def find_a(array)
+  new_str = []
+  if string.start_with?("a")
+    new_str.push(string)
+  end
+end
+new_str
 end
 def sum_array
 end
