@@ -23,7 +23,6 @@ def find_a(array)
   if string.start_with?("a")
     new_str.push(string)
   end
-end
 new_str
 end
 def sum_array
