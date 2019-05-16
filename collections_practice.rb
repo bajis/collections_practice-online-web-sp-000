@@ -7,7 +7,9 @@ end
 def sort_array_char_count(num)
   order = num.sort {|left, right| left.length <=> right.length}
 end
-def swap_elements
+def swap_elements(num)
+  num[1], num[2] = num[2], num[1]
+  return num
 end
 def reverse_array
 end
