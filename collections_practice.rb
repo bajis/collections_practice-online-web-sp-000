@@ -4,7 +4,8 @@ end
 def sort_array_desc(num)
   num.sort! {|x, y| y <=> x}
 end
-def sort_array_char_count
+def sort_array_char_count(num)
+  order = num.sort
 end
 def swap_elements
 end
