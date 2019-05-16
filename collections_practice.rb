@@ -14,7 +14,9 @@ end
 def reverse_array(num)
   order = num.reverse
 end
-def kesha_maker
+def kesha_maker(array)
+  array.each_with_index {|word, index| word[2] = "$"}
+  array
 end
 def find_a
 end
