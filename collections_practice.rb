@@ -1,7 +1,8 @@
 def sort_array_asc(num)
   order = num.sort
 end
-def sort_array_desc
+def sort_array_desc(num)
+  num.sort! {|x, y| y <=> x}
 end
 def sort_array_char_count
 end
