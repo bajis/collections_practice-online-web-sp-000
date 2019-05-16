@@ -5,7 +5,7 @@ def sort_array_desc(num)
   num.sort! {|x, y| y <=> x}
 end
 def sort_array_char_count(num)
-  order = num.sort
+  order = num.sort {|left, right| left.length <=> right.length}
 end
 def swap_elements
 end
